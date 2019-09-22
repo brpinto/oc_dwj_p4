@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", "Source Sans Pro", "Roboto", "PT Sans", "Helvetica", sans-serif;
+    background-color: rgba(230,230,230, 0.2);
+}
+
+::selection {
+    background: rgba(0,119,170, 0.5);
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+.button {
+    font-family: "PT Sans", "Source Sans Pro", "Roboto", "PT Sans", "Helvetica", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(0,119,170, 0.3);
+    padding: 5px 10px;
+    cursor: pointer;
+    color: inherit!important;
+}
+
+.main-header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(230, 242, 242);
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    cursor: default;
+    font-size: 21px;
+    font-weight: 400;
+    left: 0px;
+    line-height: 31.5px;
+    padding: 18px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.main-header .container{
+    display: flex;
+    align-items: center;
+    padding: 0 27px 0 27px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1024px;
+    box-sizing: border-box;
+    padding: 27px;
+}
+
+.logo-elt {
+    padding-right: 27px;
+}
+
+.main-title {
+    position: relative;
+    bottom: 4px;
+}
+
+.main-title h1{
+    color: rgb(5, 20, 26);
+    font-size: 1.5em;
+    font-weight: 300;
+    display: block;
+    width: 200px;
+}
+
+.sub-title {
+    color: rgb(179, 179, 179);
+    font-size: 0.8em;
+}
+
+#menu {
+    display: flex;
+    justify-content: right;
+    flex: 100 100 auto;
+}
+
+#menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    list-style-type: none;
+}
+
+.menu-spacer:after{
+    content: '//';
+    padding: 10px;
+    font-weight: bolder;
+    color: rgba(68,68,68,0.5);
+}
+
+.post-container, .login-container {
+    max-width: 660px;
+    margin: auto;
+    line-height: 1.7em;
+}
+.post-header h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.post-body{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.post-body p{
+    margin: 0;
+}
+
+.read-more a{
+    border-bottom: 1px dashed rgb(68, 68, 68);;
+}
+
+.post-footer{
+    margin-top: 15px;
+    color: rgba(68,68,68,0.5);
+}
+
+hr {
+    color: rgba(68,68,68,0.1);
+    margin: 0;
+}
+
+.main-footer {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.main-footer p {
+    margin: 0;
+}
+
+.comments-container {
+    font-size: 1.1rem;
+}
+.comments-container h4{
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+form p, form textarea{
+    font-family: "PT Sans", "Source Sans Pro", "Roboto", "PT Sans", "Helvetica", sans-serif;
+}
+
+.comments-container input {
+    width: 428px;
+}
+
+.comments-container textarea {
+    resize: none;
+}
+
+.comments-container textarea, .comments-container input {
+    border-color: rgba(68,68,68,0.1);
+    border-style: solid;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: rgba(230,230,230, 0.0);
+}
+
+.comments-container textarea:focus, .comments-container input:focus {
+    border-color: rgba(0,119,170, 0.3);
+}
+
+.comments-container button {
+    font-family: "PT Sans", "Source Sans Pro", "Roboto", "PT Sans", "Helvetica", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(0,119,170, 0.3);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.single-comment-container {
+    border: 1px solid rgba(68,68,68,0.1);
+    margin-bottom: 27px;
+    border-radius: 2px;
+    padding: 15px;
+    min-height: 120px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.comment-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-author{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.comment-body {
+    color: rgba(68, 68, 68, 0.8);
+}
+
+.comment-date{
+    font-size: 0.9em;
+    color: #9E9E9E;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pagination a {
+    margin-right: 15px;
+}
