@@ -10,8 +10,8 @@ L'objectif de ce projet est de développer un moteur de blog en PHP (sans framew
 
 ## Demo
 
-http://projet-4.brunopinto.fr/
+http://projet-4.brunopinto.fr/ <br >
 
-backend : http://projet-4.brunopinto.fr/index.php?action=admin
-login : demo
+backend : http://projet-4.brunopinto.fr/index.php?action=admin <br >
+login : demo <br >
 mdp : demo
