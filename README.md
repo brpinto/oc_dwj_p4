@@ -1,4 +1,4 @@
-<h1 align="center">Créez un blog pour un écrivain</h1>
+<h1 align="center">Créez un blog pour un écrivain (WIP 🚧)</h1>
 
 Ce projet est le quatrième des cinq projets du parcours "Développeur web junior" d'Openclassrooms (https://openclassrooms.com/fr/paths/48-developpeur-web-junior).
 
